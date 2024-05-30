@@ -42,7 +42,7 @@ set_property(TARGET funsocket_exe PROPERTY OUTPUT_NAME funsocket)
 
 target_compile_features(funsocket_exe PRIVATE cxx_std_17)
 
-target_link_libraries(funsocket_exe PRIVATE spdlog::spdlog)
+target_link_libraries(funsocket_exe PRIVATE spdlog::spdlog faker-cxx)
 
 # ---- Install rules ----
 
